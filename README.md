@@ -1,3 +1,3 @@
-# Landing-Page
+# Portfolio-page
 
-Here I'm going to create a landing page as a odin project.
+This is my portfolio website and I will link my projects to be able to accessed via this website.
