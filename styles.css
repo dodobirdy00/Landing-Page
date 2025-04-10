@@ -1,19 +1,85 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
+
+
+
+/* Nav-bar and first container */
 
 header{
     color: white;
 }
+.header-logo{
+    padding-left: 200px;
+    font-size: 24px;
+}
 
 
 .nav-bar{
-    background-color: rgb(100, 152, 231);
+    background-color: rgb(41, 64, 98);
     display: flex;
     gap: 20px;
 }
 
 li{
     list-style: none;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.link-one{
+    padding-left: 500px;
+}
+
+.first-container{
+    background-color:   rgb(41, 64, 98);
+    display: flex;
+    padding: 200px 200px 100px 200px;
+    padding-top: 100px;
+
+}
+.first-container-main-text{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+.first-container-subtext{
+    font-size: 18px;
+}
+.first-container-right{
+    flex: 1;
+    margin-left: 150px;
+}
+.first-container-left{
+    flex: 1;
+    flex-grow: 1;
+}
+
+.button{
+    background-color: rgb(58, 58, 189);
+    border-radius: 18%;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+
+/* second container */
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    border: 5px groove lightcoral;
+}
+
+.second-container-description{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
 }
