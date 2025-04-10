@@ -132,3 +132,13 @@ mark{
     padding-top: 10px;
     border: solid;
 }
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: #1f2937 ;
+    color: white;
+    font-size: 18px;
+}
