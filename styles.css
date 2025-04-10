@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+}
+
+
+.nav-bar{
+    background-color: rgb(100, 152, 231);
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
