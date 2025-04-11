@@ -61,7 +61,7 @@ li{
     box-shadow: 10px 10px 10px red;
 }
 
-button{
+.button{
     background-color: #092ee8;
     color: white;
     border: 2px solid ;
@@ -124,6 +124,7 @@ mark{
     padding: 20px;
     max-width: 600px;
     margin-left: 350px;
+    margin-bottom: 10px;
 }
 
 .contact-me-box-text{
@@ -132,7 +133,13 @@ mark{
 }
 
 .button-box{
-    flex:1
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+
 }
 
 .button-two{
@@ -145,7 +152,7 @@ mark{
     cursor: pointer;
     box-shadow: 2px 2px 2px rgb(148, 155, 255);
     text-decoration: none;
-    margin-top: 10px;
+
 }
 
 
