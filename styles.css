@@ -57,13 +57,19 @@ li{
     flex: 1;
     flex-grow: 1;
 }
+.first-container-right > img{
+    box-shadow: 10px 10px 10px red;
+}
 
-.button{
-    background-color: #3882f6;
+button{
+    background-color: #092ee8;
+    color: white;
     border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
     cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(148, 155, 255);
+    
 }
 
 
@@ -76,10 +82,12 @@ li{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
+    
 }
 
 img{
     border: 5px groove lightcoral;
+    box-shadow: 3px 3px 3px red;
 }
 
 .second-container-description{
@@ -104,7 +112,7 @@ mark{
 
 /* Last-container */
 
-.last-container{
+/* .last-container{
     background-color: aliceblue;
     padding: 75px;
 }
@@ -131,7 +139,7 @@ mark{
     text-align: center;
     padding-top: 10px;
     border: solid;
-}
+} */
 
 /* footer */
 
