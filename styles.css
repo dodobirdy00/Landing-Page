@@ -254,7 +254,18 @@ img{
 
 /* Last-container */
 
+.last-container{
+    padding: 20px;
+    background-color: #bcbea4;
+}
 
-
+.contact-me-box{
+    display: flex;
+    background-color: rgb(38, 78, 239);
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: 30px;
+}
 
 }
